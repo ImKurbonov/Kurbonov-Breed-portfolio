@@ -1,0 +1,183 @@
+/* ===== START GLOBAL STYLES ===== */
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+:root {
+    --button-color: #efb6df;
+    --link-color: #05364d;
+    --text-color: #212529;
+    --white-color: #fff;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 0.75rem;
+    max-width: 1140px;
+    width: 100%;
+}
+
+.button {
+    background: linear-gradient(to right, #1345e6 30%, #ed239f);
+    border: 0;
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 2.5rem;
+    padding: 0 1.9rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+    transition: 2s;
+}
+
+.button:hover {
+    background: linear-gradient(to left, #1345e6 30%, #ed239f);
+}
+/* ===== END GLOBAL STYLES ===== */
+
+/* ===== START SITE HEADER ===== */
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    margin-bottom: 250px;
+}
+
+.site-nav {
+    margin-left: 140px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.nav-link {
+    color: var(--link-color);
+    font-size: 0.55rem; /* 0.55 * 20px = 11px */
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.active {
+    color: var(--button-color);
+}
+
+.nav-link:hover {
+    color: var(--button-color);
+}
+/* ===== END SITE HEADER ===== */
+
+/* ===== START SITE MAIN ===== */
+/* ===== START MAIN SECTION ===== */
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.main-section__welcome {
+    font-size: 0.8rem; /* 0.8 * 20px = 16px */
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 0.1rem; /* 0.1 * 20px = 2px */
+    color: var(--text-color);
+}
+
+.main-section__introduction {
+    margin-top: 20px; /* 3 * 20px = 60px */
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 3rem; /* 0.1 * 20px = 2px */
+    margin-bottom: 20px;
+}
+
+.main-section__position {
+    font-size: 1.2rem; /* 1.2 * 20px = 24px */
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+/* ===== END MAIN SECTION ===== */
+
+/* ===== START ABOUT ME SECTION ===== */
+/* ===== END ABOUT ME SECTION ===== */
+
+/* ===== START SERVICES SECTION ===== */
+/* ===== END SERVICES SECTION ===== */
+
+/* ===== START TESTIMONIAL SECTION ===== */
+/* ===== END TESTIMONIAL SECTION ===== */
+
+/* ===== START PORTFOLIO SECTION ===== */
+/* ===== END PORTFOLIO SECTION ===== */
+
+/* ===== START BLOG SECTION ===== */
+/* ===== END BLOG SECTION ===== */
+
+/* ===== START PARTNERS SECTION ===== */
+/* ===== END PARTNERS SECTION ===== */
+/* ===== END SITE MAIN ===== */
